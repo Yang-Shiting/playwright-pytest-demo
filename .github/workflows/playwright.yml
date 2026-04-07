@@ -15,4 +15,4 @@ jobs:
           python-version: '3.11'
       - run: pip install pytest pytest-playwright
       - run: playwright install chromium
-      - run: pytest --browser=chromium --headed=false
+      - run: pytest --browser=chromium
