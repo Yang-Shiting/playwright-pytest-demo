@@ -1,0 +1,6 @@
+venv/
+__pycache__/
+.env
+reports/
+allure-results/
+.DS_Store

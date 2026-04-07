@@ -1,0 +1,9 @@
+{
+    "valid_users": [
+        {"username": "practice", "password": "SuperSecretPassword!", "expected": "You logged into a secure area!"}
+    ],
+    "invalid_users": [
+        {"username": "wrong_user", "password": "wrong_password", "expected": "Your username is invalid!"},
+        {"username": "practice", "password": "wrong_password", "expected": "Your password is invalid!"}
+    ]
+}
